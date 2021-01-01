@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Jollytur Test Suite]" parallel="methods">
+  <test thread-count="5" verbose="0" name="chrome tests(failed)" parallel="methods">
+    <classes>
+      <class name="testRunners.testNGRunner">
+        <methods>
+          <include name="scenario"/>
+          <include name="setUpClass"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testRunners.testNGRunner -->
+    </classes>
+  </test> <!-- chrome tests(failed) -->
+</suite> <!-- Failed suite [Jollytur Test Suite] -->

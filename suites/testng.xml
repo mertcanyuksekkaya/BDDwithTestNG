@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Jollytur Test Suite" parallel="tests">
+
+    <test thread-count="4" name="chrome tests">
+        <classes>
+            <class name="testRunners.MyTestRunner"></class>
+        </classes>
+    </test>
+
+
+<!--    <test name="firefox tests">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <parameter name="device" value="desktop"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testRunner.TestNGRunner"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

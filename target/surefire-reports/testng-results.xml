@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Jollytur Test Suite" duration-ms="34332" started-at="2020-12-26T14:29:31Z" finished-at="2020-12-26T14:30:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="chrome tests" duration-ms="34332" started-at="2020-12-26T14:29:31Z" finished-at="2020-12-26T14:30:05Z">
+      <class name="testRunners.MyTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="setUpClass" is-config="true" duration-ms="944" started-at="2020-12-26T14:29:31Z" finished-at="2020-12-26T14:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28340" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28367" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28306" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="21595" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28372" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28339" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="runScenario" duration-ms="28360" started-at="2020-12-26T14:29:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-26T14:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.MyTestRunner@7c16905e]" name="tearDownClass" is-config="true" duration-ms="4991" started-at="2020-12-26T14:30:00Z" finished-at="2020-12-26T14:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.MyTestRunner -->
+    </test> <!-- chrome tests -->
+  </suite> <!-- Jollytur Test Suite -->
+</testng-results>
